@@ -1,0 +1,58 @@
+#Code Explanation
+
+Package
+ Controller:
+   FileController (API End point)
+ Entity
+   Entity files
+ Repository
+   JPA repository for the entity (Connected with H2) CRUD operation performed
+ Service
+   Service files for CRUD operation interface
+   Impl files for performing CRUD
+ Config
+   Bean configuration
+application properties
+  properties connected with H2
+
+#Upload Doc
+ uploadFile method
+#Delete Doc
+ deleteFile method
+#view Doc
+ downloadFile method
+ 
+ #Create post
+ addPost method
+ 
+ #Create comment
+ addComments method
+ 
+ #Create user
+ addUser method
+ 
+ #View List of Document by user
+ getDocumentList method
+ 
+ #Update post
+ updatePost method
+ 
+ #update comment
+ updateComments method
+ 
+ #update user
+ updateUser method
+ 
+ #Delete post
+ deletePost method
+ 
+ #delete comment
+ deleteComments method
+ 
+ #delete user
+ deleteUser method
+ 
+ #Code Build in Gradle
+ 
+ #JsonPlaceHolder used for testing 
+ 
